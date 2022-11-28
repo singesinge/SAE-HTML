@@ -2,15 +2,19 @@ html {
     background: black;
     height: 100%;
 	width: auto;
+	
 }
 
 body {
+	overflow-x: hidden;
+	max-width: 100%;
     margin: 0;
     padding: 0;
     height: 100%;
 	font-size: 22px;
 	font-family: monospace; 
-	font-style: normal; 
+	font-style: normal;
+	
 }
 
 * {
