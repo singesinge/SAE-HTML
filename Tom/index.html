@@ -2,43 +2,51 @@
 <html lang="fr">
 <head>
 	
-	<title>Ethical Hacking By Tom Carvajal</title>
+	<title>Ethical Hacking</title>
     <meta charset="utf-8" />
+
+	<meta name="description" content="Présentation d'un metier que j'envisage de faire">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="author" content="Tom Carvajal">
+
     <link rel="stylesheet" href="style.css">
 	<link rel="icon" type="image" sizes="16x16" href="https://img.icons8.com/dusk/344/computer.png">
 	
 </head>
 
 <body>
-    <div>
-		<p id='principaltitle'>Ethical Hacking</p>
+	
+	<!-- titres + effet matrix -->
+	<div>
+		<h1 id='principaltitle'>Ethical Hacking</h1>
 		<canvas id="matrix"></canvas>
 	</div>
 	
+	<!-- gestion du bandeau d'entete avec des liens d'ancrages-->
     <div class='header' id='bandeau'>
-	<table class='tablebandeau'>	
-		<tbody>
-			<tr>
-				<td style="align:center">
-					<a href='' class='link-white link'>
-						<ul style='color:lime'>Home</ul>
-					</a>
-				</td>
-				<td style="align:center">
-					<a href='./index.html#ancre1' class='link-white link'>
-						<ul>Statistiques</ul>
-					</a>
-				</td>
-				<td style="align:center">
-					<a href='./index.html#ancre2' class='link-white link'>
-						<ul>Etudes</ul>
-					</a>
-				</td>
-				
-				
-			</tr>
-		</tbody>
-	</table>
+		<table class='tablebandeau'>	
+			<tbody>
+				<tr>
+					<td style="align:center">
+						<a href='' class='link-white link'>
+							<ul style='color:lime'>Home</ul>
+						</a>
+					</td>
+					<td style="align:center">
+						<a href='./index.html#ancre1' class='link-white link'>
+							<ul>Statistiques</ul>
+						</a>
+					</td>
+					<td style="align:center">
+						<a href='./index.html#ancre2' class='link-white link'>
+							<ul>Etudes</ul>
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 	
 	<div class='Home0'><br/>
@@ -55,7 +63,7 @@
 				</p>
 				<p style='color:white;margin-left:10px;' >
 					L'ethical hacking,<br/> 
-					ou piratage éthique en français, en sécurité informatique décrit l'activité de hacking lorsqu'elle n'est pas malveillante.<br/>
+					ou hacking éthique en français, en sécurité informatique décrit l'activité de hacking lorsqu'elle n'est pas malveillante.<br/>
 					<br/>
 					En effet le hacking n'est pas nécessairement néfaste.<br/>
 					Au contraire, c'est même devenu un métier d'avenir, dans notre monde qui est chaque jour un peu plus connecté, <br/>
@@ -69,6 +77,7 @@
 					<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ <span class='clignote'>█</span> <br/>
 				</p>
 			</div>
+		
 			<div class='asciiart reveal reveal-3'>
 				<pre>
 ___.___    ~            _____________
@@ -83,8 +92,9 @@ ___.___    ~            _____________
 				</pre>
 			</div>
 		</div>
-		
 	</div>
+
+	<!-- balise d'ancrage pour visualiser les statistiques -->
 	<balise id='ancre1'> </balise>
 	
 	<div class='Home1 reveal reveal-1'>
@@ -114,16 +124,16 @@ ___.___    ~            _____________
 			<tbody>
 				<tr class="reveal reveal-3">
 					<td>
-						<image style ='max-width:17%;heigt:auto' src='./86.png'>
+						<image style ='max-width:17%;heigt:auto' src='./assets/86.png'>
 					</td>
 					<td>
-						<image style ='max-width:47%;heigt:auto' src='./billets.png'>
+						<image style ='max-width:47%;heigt:auto' src='./assets/billets.png'>
 					</td>
 					<td>
-						<image style ='max-width:20%;heigt:auto' src='./doc.png'>
+						<image style ='max-width:20%;heigt:auto' src='./assets/doc.png'>
 					</td>
 					<td>
-						<image style ='max-width:34%;heigt:auto' src='./calendrier.png'>
+						<image style ='max-width:34%;heigt:auto' src='./assets/calendrier.png'>
 					</td>
 				</tr>
 			</tbody>
@@ -131,7 +141,7 @@ ___.___    ~            _____________
 		<br/>
 		<br/>
 			<footer>
-		<a class="reveal reveal-3" href ='www.vaadata.com/blog/fr/statistiques-cybersecurite-web-mobile-iot-2021-renforcer-votre-securite-avec-pentest/'style='font-size:15px;color:lime'> Sources : www.vaadata.com/blog/fr/statistiques-cybersecurite-web-mobile-iot-2021-renforcer-votre-securite-avec-pentest/ </a>
+				<a class="reveal reveal-3" href ='www.vaadata.com/blog/fr/statistiques-cybersecurite-web-mobile-iot-2021-renforcer-votre-securite-avec-pentest/'style='font-size:15px;color:lime'> Sources : www.vaadata.com/blog/fr/statistiques-cybersecurite-web-mobile-iot-2021-renforcer-votre-securite-avec-pentest/ </a>
 			</footer>
 			<br/>
 	</div>
@@ -240,128 +250,129 @@ ___.___    ~            _____________
 			</div>
 		</div>
 	</div>
-	<balise id='ancre2'> </balise>
-<div class='reveal reveal-1'>
 	
 
-	<div>
-	<svg>
-	<defs>
-		<filter id="screen-glitch" x="-50%" y="-50%" width="200%" height="200%">
-			<feTurbulence type="fractalNoise" baseFrequency="0 0.01" result="noise" numOctaves="2"/>
-			<feDisplacementMap in="SourceGraphic" in2="noise" scale="200"/>
-		</filter>
-	</defs>
-</svg>
-<div class="container">
+	<!-- ancrage vers le paragraphe des études -->
+	<balise id='ancre2'> </balise>
+
+	<div class='reveal reveal-1'>
 	
-	<header data-content="Loading Data">Loading Data</header>
-	<div class="random-letters">
-		<div class="random-letters_letter">
-			<p>G</p>
-			<p>3</p>
-			<p>[</p>
-			<p>6</p>
-			<p>E</p>
-			<p>!</p>
-			<p>G</p>
-			<p>T</p>
-			<p>1</p>
-			<p>J</p>
+
+		<div>
+			<svg>
+				<defs>
+					<filter id="screen-glitch" x="-50%" y="-50%" width="200%" height="200%">
+						<feTurbulence type="fractalNoise" baseFrequency="0 0.01" result="noise" numOctaves="2"/>
+						<feDisplacementMap in="SourceGraphic" in2="noise" scale="200"/>
+					</filter>
+				</defs>
+			</svg>
+
+			<div class="container">
+				<header data-content="Loading Data">Loading Data</header>
+				<div class="random-letters">
+					<div class="random-letters_letter">
+						<p>G</p>
+						<p>3</p>
+						<p>[</p>
+						<p>6</p>
+						<p>E</p>
+						<p>!</p>
+						<p>G</p>
+						<p>T</p>
+						<p>1</p>
+						<p>J</p>
+					</div>
+					<div class="random-letters_letter">
+						<p>L</p>
+						<p>M</p>
+						<p>U</p>
+						<p>{</p>
+						<p>}</p>
+						<p>F</p>
+						<p>-</p>
+						<p>H</p>
+						<p>*</p>
+						<p>9</p>
+					</div>
+					<div class="random-letters_letter">
+						<p>I</p>
+						<p>+</p>
+						<p>W</p>
+						<p>]</p>
+						<p>=</p>
+						<p>L</p>
+						<p>?</p>
+						<p>5</p>
+						<p>V</p>
+						<p>1</p>
+					</div>
+					<div class="random-letters_letter">
+						<p>T</p>
+						<p>D</p>
+						<p>7</p>
+						<p>$</p>
+						<p>S</p>
+						<p>~</p>
+						<p>C</p>
+						<p>%</p>
+						<p>"</p>
+						<p>5</p>
+					</div>
+					<div class="random-letters_letter">
+						<p>C</p>
+						<p>M</p>
+						<p>U</p>
+						<p>{</p>
+						<p>}</p>
+						<p>F</p>
+						<p>-</p>
+						<p>H</p>
+						<p>*</p>
+						<p>9</p>
+					</div>
+					<div class="random-letters_letter">
+						<p>H</p>
+						<p>+</p>
+						<p>W</p>
+						<p>]</p>
+						<p>=</p>
+						<p>L</p>
+						<p>?</p>
+						<p>5</p>
+						<p>V</p>
+						<p>1</p>
+					</div>
+					<p>...<div class="cursor">|</div></p>
+				</div>
+				<div class="loading-bar"></div>
+			</div>	
 		</div>
-		<div class="random-letters_letter">
-			<p>L</p>
-			<p>M</p>
-			<p>U</p>
-			<p>{</p>
-			<p>}</p>
-			<p>F</p>
-			<p>-</p>
-			<p>H</p>
-			<p>*</p>
-			<p>9</p>
-		</div>
-		<div class="random-letters_letter">
-			<p>I</p>
-			<p>+</p>
-			<p>W</p>
-			<p>]</p>
-			<p>=</p>
-			<p>L</p>
-			<p>?</p>
-			<p>5</p>
-			<p>V</p>
-			<p>1</p>
-		</div>
-		<div class="random-letters_letter">
-			<p>T</p>
-			<p>D</p>
-			<p>7</p>
-			<p>$</p>
-			<p>S</p>
-			<p>~</p>
-			<p>C</p>
-			<p>%</p>
-			<p>"</p>
-			<p>5</p>
-		</div>
-		<div class="random-letters_letter">
-			<p>C</p>
-			<p>M</p>
-			<p>U</p>
-			<p>{</p>
-			<p>}</p>
-			<p>F</p>
-			<p>-</p>
-			<p>H</p>
-			<p>*</p>
-			<p>9</p>
-		</div>
-		<div class="random-letters_letter">
-			<p>H</p>
-			<p>+</p>
-			<p>W</p>
-			<p>]</p>
-			<p>=</p>
-			<p>L</p>
-			<p>?</p>
-			<p>5</p>
-			<p>V</p>
-			<p>1</p>
-		</div>
-		<p>...<div class="cursor">|</div></p>
 	</div>
-	<div class="loading-bar"></div>
-</div>	
-</div>
-</div>
 
 
 	<div class='Home3 reveal reveal-1' >
 		<div class='console3'>
-				<span style='color:white;position: absolute;right:2%'>— ▭ ✕</span>
-				<p style='color:white;margin-left:10px;' >
-					<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ man quelles_etudes_? <br/>
-				</p>
+			<span style='color:white;position: absolute;right:2%'>— ▭ ✕</span>
+			<p style='color:white;margin-left:10px;' >
+				<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ man quelles_etudes_? <br/>
+			</p>
 			<p style='color:white;margin-left:10px;' >
 			chouette ! Alors quelles études pour devenir hacker ?<br/>
 			<br/>
-	bah du coup comme vu plus haut il n'y a pas vraiment d'étude car le hacking à mauvaise réputation, et en France nous ne sommes pas les meilleurs pour offrir des formations
-	pour les métiers d'avenir...<br/>
-	<br/>
-	je ne sais pas encore bien vers quoi m'orienté, mais il est tout de même indispensable d'être autodidacte passionnée pour apprendre ce métier, je suivrais quand même sans doute
-	un cursus d'informatique, en bts ou iut, puis un master en alternance en cybersécurité
+			bah du coup comme vu plus haut il n'y a pas vraiment d'étude car le hacking à mauvaise réputation, et en France nous ne sommes pas les meilleurs pour offrir des formations
+			pour les métiers d'avenir...<br/>
+			<br/>
+			je ne sais pas encore bien vers quoi m'orienté, mais il est tout de même indispensable d'être autodidacte passionnée pour apprendre ce métier, je suivrais quand même sans doute
+			un cursus d'informatique, en bts ou iut, puis un master en alternance en cybersécurité
 			</p>	
 			<p style='color:white;margin-left:10px;' >
 				<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ <span class='clignote'>█</span> <br/>
 			</p>
-	
-	
-	
-	
-	</div>
-	<div class ='asciiart3 reveal reveal-2''>
-	<pre>
+		</div>
+		
+		<div class ='asciiart3 reveal reveal-2''>
+			<pre>
 			  
        	   __       __
 .-.__     |\ \-.  _|\ \
@@ -383,49 +394,50 @@ ___.___    ~            _____________
                               \ \  \
                                \_\_|
 
-	</pre>
-	</div>
+			</pre>
+		</div>
 	
 	
-	<div class='console2 reveal reveal-2' style='right:13%;left:47%;top:23%;background-color:rgba(04,04,04,.90);z-index:5'>
-		<span style='color:white;position: absolute;right:2%'>— ▭ ✕</span>
-				<p style='color:white;margin-left:10px;' >
-					<span style='color:red'>root@kali</span>:<span style='color:#228DCC'>~</span>$ nano /root/Desktop/Quelles_Competences_?.txt<br/>
-				</p>
-	<div style='color:white;margin-left:10px;'>
-	<p >
-	Bien qu'il n'existe pas encore d'école de hacking éthique, et de pen-testing (test de pénétration) en France,
-	certaines qualités et connaissances restent essentielles pour aspirer à ce métier.<br/><br/>
-	
-	Les prérequis du ethical hacking sont :<br/>
-		<ul style='margin-left:10px'>- Être véritablement passionné d'informatique</ul>
-		<ul style='margin-left:10px'>- Connaitre le droit et les réglementations en vigueur</ul>
-		<ul style='margin-left:10px'>- Être curieux et autodidacte</ul>
-		<ul style='margin-left:10px'>- Avoir un esprit créatif</ul>
-		<ul style='margin-left:10px'>- Avoir le gout du défi </ul>
-		<ul style='margin-left:10px'>- Aimer résoudre des problèmes</ul>
-		<ul style='margin-left:10px'>- Savoir s'armer de patience, et recommencer</ul>
-		<ul style='margin-left:10px'>- Toujours s'informer sur l'actualité des derniers hacks, et les nouvelles méthodes </ul>
-	<br/>
-	Les compétences que doit acquérir un hacker éthique sont :<br/>
-		<ul style='margin-left:10px'>- Une connaissance approfondit du réseau et des systèmes informatiques</ul>
-		<ul style='margin-left:10px'>- Une bonne maitrise de linux</ul>
-		<ul style='margin-left:10px'>- Des notions en reverse engineering</ul>
-		<ul style='margin-left:10px'>- Des bases solides en programmations, notamment dans plusieurs langages.</ul>
-		<ul style='margin-left:10px'>- Des connaissances sur la partie physique des systèmes,(le hardware)</ul>
-		<ul style='margin-left:10px'>- Des compétences en cryptographie</ul>
-		<ul style='margin-left:10px'>- Une maitrise approfondis des bases de données</ul>
-		<ul style='margin-left:10px'>- Être à l'aise en anglais , et spécialement en anglais informatique </ul>
-		</p>
+		<div class='console2 reveal reveal-2' style='right:13%;left:47%;top:23%;background-color:rgba(04,04,04,.90);z-index:5'>
+			<span style='color:white;position: absolute;right:2%'>— ▭ ✕</span>
+			<p style='color:white;margin-left:10px;' >
+				<span style='color:red'>root@kali</span>:<span style='color:#228DCC'>~</span>$ nano /root/Desktop/Quelles_Competences_?.txt<br/>
+			</p>
+			<div style='color:white;margin-left:10px;'>
+				<p >
+					Bien qu'il n'existe pas encore d'école de hacking éthique, et de pen-testing (test de pénétration) en France,
+					certaines qualités et connaissances restent essentielles pour aspirer à ce métier.<br/><br/>
 		
+					Les prérequis du ethical hacking sont :<br/>
+				
+					<ul style='margin-left:10px'>- Être véritablement passionné d'informatique</ul>
+					<ul style='margin-left:10px'>- Connaitre le droit et les réglementations en vigueur</ul>
+					<ul style='margin-left:10px'>- Être curieux et autodidacte</ul>
+					<ul style='margin-left:10px'>- Avoir un esprit créatif</ul>
+					<ul style='margin-left:10px'>- Avoir le gout du défi </ul>
+					<ul style='margin-left:10px'>- Aimer résoudre des problèmes</ul>
+					<ul style='margin-left:10px'>- Savoir s'armer de patience, et recommencer</ul>
+					<ul style='margin-left:10px'>- Toujours s'informer sur l'actualité des derniers hacks, et les nouvelles méthodes </ul>
+					<br/>
+			
+					Les compétences que doit acquérir un hacker éthique sont :<br/>
+					<ul style='margin-left:10px'>- Une connaissance approfondit du réseau et des systèmes informatiques</ul>
+					<ul style='margin-left:10px'>- Une bonne maitrise de linux</ul>
+					<ul style='margin-left:10px'>- Des notions en reverse engineering</ul>
+					<ul style='margin-left:10px'>- Des bases solides en programmations, notamment dans plusieurs langages.</ul>
+					<ul style='margin-left:10px'>- Des connaissances sur la partie physique des systèmes,(le hardware)</ul>
+					<ul style='margin-left:10px'>- Des compétences en cryptographie</ul>
+					<ul style='margin-left:10px'>- Une maitrise approfondis des bases de données</ul>
+					<ul style='margin-left:10px'>- Être à l'aise en anglais , et spécialement en anglais informatique </ul>
+				</p>			
 				<p style='color:white'>
 					<span style='color:red'>root@kali</span>:<span style='color:#228DCC'>~</span>$ <span class='clignote'>█</span> <br/>
 				</p>
-	</div>
-	</div>
+			</div>
+		</div>
 	
-	<div class='asciiart2 reveal reveal-3' style='top:33%;left:2%;right:60%'>
-	<pre>
+		<div class='asciiart2 reveal reveal-3' style='top:33%;left:2%;right:60%'>
+			<pre>
 	Surfing the waves of the Digital Ocean..
                        .        .           -     _
                    .       .  ~   . ~  -  ~  . = .  ~
@@ -442,34 +454,34 @@ ___.___    ~            _____________
       _ _ _ }` `. ~ . - _ = ~. ~ = .   -   =
 	
 	
-	</pre>
-	</div>
+			</pre>
+		</div>
 	
 	
-	<div class='console reveal reveal-3' style='background-color:rgba(04,04,04,.90);top:59%;left:13%;z-index:2;margin-right:-2%'>
+		<div class='console reveal reveal-3' style='background-color:rgba(04,04,04,.90);top:59%;left:13%;z-index:2;margin-right:-2%'>
 			<span style='color:white;position: absolute;right:2%'>— ▭ ✕</span>
-				<p style='color:white;margin-left:10px;' >
-					<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ --help <br/>
-				</p>
 			<p style='color:white;margin-left:10px;' >
-	alors s'il n'y a pas encore d'école de hacking éthique, comment obtenir des diplômes attestant de notre niveau ?<br/>
-	<br/>
-	Eh bien, certaines certifications existent, et se passent en candidat libre pour la plupart, parmi elles la certification CEH : Certified Ethical Hacker est l'une des plus demandées et qui doit être renouvelée tous les 3 ans,
-	il y a aussi la cérification OCSP : Offensive Security Certified Professional
-	on peut aussi prétendre à ce poste avec un master en informatique avec une spécialisation en cybersécurité.<br/>
-	<br/>
-	Au niveau du salaire, la rémunération d'un hacker éthique varie en fonction de la taille de l'entreprise qui l'emploie ainsi que de son expérience.<br/>
-	<br/>
-	Mais en moyenne, en France, un hacker éthique débutant touche 5000€ par mois contre 7500€ pour un profil sénior. <br/>
-	Beaucoup d'entre eux sont également de plus en plus rémunérer sous forme de récompenses à la résolution d'un bug grâce aux plateformes de bug bounty.
-	
-	</p>
-	<p style='color:white;margin-left:10px;' >
-					<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$  <span class='clignote'>█</span> <br/>
-				</p>
-	</div>
-	<div class ='asciiart3 reveal reveal-2' style='top:59%;right:1%;z-index:1'>
-	<pre>
+				<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$ --help <br/>
+			</p>
+			<p style='color:white;margin-left:10px;' >
+				alors s'il n'y a pas encore d'école de hacking éthique, comment obtenir des diplômes attestant de notre niveau ?<br/>
+				<br/>
+				Eh bien, certaines certifications existent, et se passent en candidat libre pour la plupart, parmi elles la certification CEH : Certified Ethical Hacker est l'une des plus demandées et qui doit être renouvelée tous les 3 ans,
+				il y a aussi la cérification OCSP : Offensive Security Certified Professional
+				on peut aussi prétendre à ce poste avec un master en informatique avec une spécialisation en cybersécurité.<br/>
+				<br/>
+				Au niveau du salaire, la rémunération d'un hacker éthique varie en fonction de la taille de l'entreprise qui l'emploie ainsi que de son expérience.<br/>
+				<br/>
+				Mais en moyenne, en France, un hacker éthique débutant touche 5000€ par mois contre 7500€ pour un profil sénior. <br/>
+				Beaucoup d'entre eux sont également de plus en plus rémunérer sous forme de récompenses à la résolution d'un bug grâce aux plateformes de bug bounty.
+			</p>
+			<p style='color:white;margin-left:10px;' >
+				<span style='color:lime'>kali@kali</span>:<span style='color:#007A05'>~</span>$  <span class='clignote'>█</span> <br/>
+			</p>
+		</div>
+
+		<div class ='asciiart3 reveal reveal-2' style='top:59%;right:1%;z-index:1'>
+			<pre>
 	                              )
                          )   __    (
                         __  (~(    __
@@ -501,9 +513,8 @@ ___.___    ~            _____________
             /_O_/  /_/\_O_\ \O\   ,o,'
                              \_\ `.'
 
-	</pre>
-	
-	</div>
+			</pre>
+		</div>
 	</div>
 	<script src="script.js"></script>
 </body>
