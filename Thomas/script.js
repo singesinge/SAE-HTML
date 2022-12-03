@@ -13,7 +13,7 @@ new Typewriter(txtAnim, {
 .typeString('<span style="color: darkgreen;"> Développeur de ce site</span>')
 .pauseFor(1000)
 .deleteChars(23)
-.typeString('<span style="color:  darkorange;"> Et futur développeur Web</span> !')
+.typeString('<span style="color:  darkorange;"> Et futur Dév Full-Stack</span> !')
 .pauseFor(1000)
 .deleteChars(46)
 .typeString('<span style="color:  darkpurple;">Ma présentation et le metier que je souhaiterai faire.</span>')

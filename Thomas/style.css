@@ -101,6 +101,22 @@ h1{
 	transition: 1s cubic-bezier(.5,0,0,1);
 }
 
+.tableaucenter{
+	width:90%;
+    height: 100px;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.tablebandeau{
+	position : relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 nav {
     position: fixed;
     width: 20%;
@@ -153,12 +169,55 @@ nav a {
 	background-color:#212020e9;
     box-shadow: 0px 12px 10px 10px rgba(10, 14, 12, 0.5);
 }
+.console3{
+	position: relative;
+    max-width: 70%;
+	border:2px solid rgb(255, 255, 255);
+	border-radius: 15px;
+    margin-top:5%;
+	z-index:4;
+	left: 15%;
+	right:15%;
+	font-size: 22px;
+	background-color:#000000e9;
+    box-shadow: 10px 12px 10px 0px rgba(10, 14, 12, 0.5);
+}
+
+.console4{
+	position: relative;
+    max-width: 50%;
+    margin-top: 20%;
+	border:2px solid white;
+	border-radius: 7px;
+	z-index:4;
+	left: 25%;
+	right:25%;
+	font-size: 22px;
+	background-color:#212020;
+    box-shadow: 0px 7px 7px 7px rgba(10, 14, 12, 0.5);
+}
+.console5{
+	position: relative;
+    text-align: center;
+    max-width: 40%;
+    margin-top: 10%;
+	border:2px solid white;
+	border-radius: 7px;
+	z-index:4;
+	left: 30%;
+	right:30%;
+	font-size: 22px;
+	background-color:#212020;
+    box-shadow: 0px 7px 7px 7px rgba(10, 14, 12, 0.5);
+}
+
+
 
 .Home1{
 	position: relative;
 	width: 100%;
-	height: auto;
-	margin-top: 20%;
+	height: 100%;
+	margin-top: 10%;
     padding: 0;
 	background: white;
 	z-index:4;

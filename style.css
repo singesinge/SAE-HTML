@@ -33,3 +33,9 @@ body{
 	height: 100%;
 	background: #000000 url(ressources/acceuil.jpg) center /cover no-repeat;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 50px;
+	padding-top:15%;
+	padding-left: 50%;
+}
