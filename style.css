@@ -36,6 +36,65 @@ body{
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 50px;
-	padding-top:15%;
-	padding-left: 50%;
+	padding-top:20%;
+	padding-left: 40%;
+}
+.btn1{
+    position: absolute;
+    width: 10%;
+    margin-left: 40%;
+    text-align: center;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid#333;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+.btn2{
+    position: absolute;
+    width: 10%;
+    margin-left: 52.5%;
+    text-align: center;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid#333;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+.btn3{
+    position: absolute;
+    width: 10%;
+    margin-left: 65%;
+    text-align: center;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid#333;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+.btn1:hover{
+    background: #333;
+    color: #f1f1f1;
+}
+.btn2:hover{
+    background: #333;
+    color: #f1f1f1;
+}
+.btn3:hover{
+    background: #333;
+    color: #f1f1f1;
+}
+
+.wipe-transition {
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(90deg, rgb(165, 165, 223),midnightblue) ;
+    position: absolute;
+    left: -95%;
 }
