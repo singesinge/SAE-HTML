@@ -95,3 +95,12 @@ nav a {
     margin: 10px 0;
     text-decoration: none;
 }
+
+.Home0{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+	background: #101412;
+}
