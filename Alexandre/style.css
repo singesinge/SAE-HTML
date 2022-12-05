@@ -126,3 +126,26 @@ h1{
 
     background-color: #000000;
 }
+
+.imageiut{
+    background: #000000 url(ressources/iut.jpg) center /cover no-repeat;
+
+    width: 512px;
+    height: 341px;
+
+    padding: 2%;
+
+    border: solid;
+    border-color: white;
+    
+    margin-top: -45%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: -7.5%;
+    margin-left: 15%;
+    color: white;
+}
