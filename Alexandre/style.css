@@ -105,5 +105,24 @@ h1{
 	font-size: 30px;
 	padding-top: 6%;
 	padding-left: 30%;
-    color: red;
+    color: white;
+}
+
+.identité{
+    color: white;
+    text-shadow: 2px 3px 5px gray;
+    
+    width: 500px;
+    height: 700px;
+
+    padding : 2%;
+
+    border: solid;
+    border-color: white;
+
+    margin-top: 10%;
+    margin-left: 55%;
+    margin-bottom: 10%;
+
+    background-color: #000000;
 }
