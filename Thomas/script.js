@@ -50,3 +50,21 @@ const observer = new IntersectionObserver(handleIntersect, options)
 document.querySelectorAll("[class*='reveal-']").forEach(function(r){
 	observer.observe(r)
 })
+
+
+
+/*==btn backToTop==*/
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
