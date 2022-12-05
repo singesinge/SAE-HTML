@@ -264,3 +264,28 @@ nav a {
 	opacity: 1;
 	visibility: visible;
   }
+
+
+  .blanc{
+	color:white;
+	margin-left:10px;
+  }
+  .crog{
+	color:rgb(75, 75, 76)
+  }
+.pbleu{
+	color:rgb(55, 107, 238)
+}
+.styleb{
+	color:rgb(124, 177, 255)
+}
+.txto{
+	color:rgb(255, 186, 96)
+}
+.crod{
+	color:rgb(75, 75, 76)
+}
+.ico{
+	max-width:30%;
+	height:auto;
+}
