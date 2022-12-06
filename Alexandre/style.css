@@ -188,3 +188,69 @@ h3{
     margin-left: 58.5%;
     color: white;
 }
+
+.salaires{
+    color: white;
+    text-shadow: 2px 3px 5px gray;
+    font-size: 20px;
+    
+    width: 25%;
+    height: 50%;
+
+    padding : 2%;
+
+    border: solid;
+    border-color: white;
+
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+    background-color: #000000;
+}
+
+.diplomes{
+    color: white;
+    text-shadow: 2px 3px 5px gray;
+    font-size: 20px;
+    
+    width: 25%;
+    height: 50%;
+
+    padding : 2%;
+
+    border: solid;
+    border-color: white;
+
+    margin-top: -34.5%;
+    margin-left: 37.5%;
+    margin-bottom: 10%;
+
+    background-color: #000000;
+}
+
+.statistiques{
+    color: white;
+    text-shadow: 2px 3px 5px gray;
+    font-size: 20px;
+    
+    width: 25%;
+    height: 50%;
+
+    padding : 2%;
+
+    border: solid;
+    border-color: white;
+
+    margin-top: -34.5%;
+    margin-left: 70%;
+    margin-bottom: 10%;
+
+    background-color: #000000;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
