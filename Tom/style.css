@@ -12,60 +12,6 @@ body {
 	width: auto;
 }
 
-@media screen and (max-width: 1200px) {
-    .asciiart {
-        display: none !important;
-    }
-	.asciiart2 {
-        display: none !important;
-    }
-	.asciiart3 {
-        display: none !important;
-    }
-	.console{
-		font-size: 12px !important;
-		left:5% !important;
-		right:5% !important ;
-	}
-	.console1{
-		left:5% !important;
-		right:5% !important ;
-	}
-	.console2{
-		font-size: 12px !important;
-		left:5% !important;
-		right:5% !important ;
-	}
-	.console3{
-		font-size: 12px !important;
-		left:5% !important;
-		right:5% !important ;
-	}
-	.Home0{	
-		height: 600px !important;
-	}
-	.Home1{
-		font-size: 12px !important;
-	}
-	.Home2{		
-		height: 1050px !important;
-
-	}
-	.Home3{		
-		height: 1550px !important;
-
-	}
-	h1{ 
-		margin-top: 7% !important;
-	}
-	.container{
-		display: none !important;
-	}
-	.container::before{
-		display: none !important;
-	}
-}
-
 @keyframes clignote {  
 	50% { opacity: 0; }
 }
@@ -109,8 +55,8 @@ header {
 
 .header {
 	background: #101412;
-	color: white;
 	box-shadow: 0px 12px 10px 10px rgba(10, 14, 12, 0.5);
+	color: white;
 	margin-top: -5px;
 	padding: 10px 10px;
 	z-index:20;
@@ -358,11 +304,11 @@ td {
 	transition: 1s cubic-bezier(.5,0,0,1);
 }
 .reveal-2{
-	transition-delay:.1
+	transition-delay:0.1s
 }
 
 .reveal-3{
-	transition-delay:.2
+	transition-delay:0.2s
 }
 
 .content {
@@ -650,6 +596,61 @@ td {
 	height: calc(100% - calc(var(--loading-bar_border) * 2));
 	margin: var(--loading-bar_border);
 	position: absolute;
-	top: 0px;
+	top: 0;
 	transition-duration: var(--dark-mode_transition-time);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .asciiart {
+        display: none ;
+    }
+	.asciiart2 {
+        display: none ;
+    }
+	.asciiart3 {
+        display: none ;
+    }
+	.console{
+		font-size: 12px ;
+		left:5% ;
+		right:5%  ;
+	}
+	.console1{
+		left:5% ;
+		right:5%  ;
+	}
+	.console2{
+		font-size: 12px ;
+		left:5% ;
+		right:5%  ;
+	}
+	.console3{
+		font-size: 12px ;
+		left:5% ;
+		right:5%  ;
+	}
+	.Home0{	
+		height: 600px ;
+	}
+	.Home1{
+		font-size: 12px ;
+	}
+	.Home2{		
+		height: 1050px ;
+
+	}
+	.Home3{		
+		height: 1550px ;
+
+	}
+	h1{ 
+		margin-top: 7% ;
+	}
+	.container{
+		display: none ;
+	}
+	.container::before{
+		display: none ;
+	}
 }
