@@ -254,3 +254,30 @@ h4{
     text-align: center;
     color: white;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .accueil {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .imageiut {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .imageordi {
+        display: none;
+    }
+
+    h3 {
+        display: none;
+    }
+}
