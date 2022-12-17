@@ -6,27 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Acceuil</title>
     <link rel="icon" type="image" sizes="16x16" href="ressources/codage.png">
-    <link rel="stylesheet" href="style.css"/>
+    <link id="css" rel="stylesheet" type="text/css" href="./style/style.css"/>
 </head>
-<body data-barba="wrapper">
-    <main data-barba="container" data-barba-namespace="home"></main>
+<body>
     <div class="acceuil">
         <h1>
-<<<<<<< HEAD
-          Site de présentation de<br> notre futur métier.
-=======
           Site de présentation de<br> nos futurs métiers.
->>>>>>> 6078ce3416fbc31b9e8f79f180851e16839f6748
         </h1>
             <a href="./Tom/index.html" class="btn1">Tom</a>
             <a href="./Thomas/index.html" class="btn2">Thomas</a>
             <a href="./Alexandre/index.html" class="btn3">Alexandre</a>
-            <a href="./contact.html" class="btn4">Contacte</a>
+            <a href="./contact.html" class="btn4">Contact</a>
+            <a class="btnclair" onclick="document.getElementById('css').href='./style/style.css';">Mode<br> Clair</a>
+            <a class="btnsombre" onclick="document.getElementById('css').href='./style/style2.css';">Mode<br> Sombre</a>
     </div>
-</main>
-</body>
-
-    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
