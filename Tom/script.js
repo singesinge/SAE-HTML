@@ -2,7 +2,7 @@
 const canvas = document.getElementById('matrix');
 const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
-canvas.height = 285;
+canvas.height = 250;
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const nums = '0123456789';
