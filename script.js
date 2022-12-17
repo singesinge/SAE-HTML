@@ -6,3 +6,11 @@ function toggleNav(){
 	hamburgerButton.classList.toggle("active")
 	navigation.classList.toggle("active")
   }
+
+function sendEmail() {
+    var yourMessage = document.getElementById("input_message").value;
+    var subject = document.getElementById("input_subject").value;
+    parent.location.href = "mailto:flouksac1@gmail.com?subject="
+        + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(yourMessage);
+}
