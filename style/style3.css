@@ -1,0 +1,46 @@
+section{
+    background-color: rgba(74, 74, 87, 0.8)   ;
+    border-radius: 20px;
+    border-width:5px;
+    
+    
+}
+
+form {
+    margin-left:1%;
+    margin-right:1%;
+}
+
+legend{
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:20%;
+    margin-right:20%;    
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url(./image_fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{ 
+    border-radius: 20px;
+    width:29vw
+}
+textarea{
+    border-radius: 20px;
+    width:29vw
+}
+fieldset{
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+}
