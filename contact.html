@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>    
+</head>
+<body>
+    
+    <form>
+        <fieldset>   
+            <legend> formulaire de contact</legend>
+            <label for="Email"> Email : </label>
+            <br>
+            <input type="email" id="input_mail" name="Email">
+            <br><br>
+            <label for="Sujet"> Sujet : </label>
+            <br>
+            <input type="text" id="input_subject" name="Sujet">
+            <br><br>
+            <label for="Message"> Message : </label>
+            <br>
+            <textarea id="input_message" name="Message" rows="4" cols="50"> </textarea>
+            <br><br>
+            <label for="Valider"> Valider : </label>
+            <br>
+            <input type=button name="Valider" id="validation_button" onclick="sendEmail()" value="Envoyer">  </button>
+        </fieldset>
+    </form>
+    <article id="output"></article>
+    
+    
+</body>
+</html>
