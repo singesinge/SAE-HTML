@@ -17,3 +17,6 @@ function sendEmail() {
         + encodeURIComponent(subject)
         + "&body=" + encodeURIComponent(yourMessage);
 }
+
+function themeclair(){document.getElementById('css').href='./style/style.css}
+function themesombre(){document.getElementById('css').href='./style/style2.css}
