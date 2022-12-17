@@ -1,2 +1,2 @@
 ## Voici notre site internet
-Caque page nous allons nous presenter et présenter notre futur métier
+Dans ces pages nous présenterons nos futurs métiers
