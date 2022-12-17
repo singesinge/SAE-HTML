@@ -26,7 +26,7 @@ html{
 
 body{
     background-attachment: fixed;
-    background-image: url(./image_fond.png);
+    background-image: url(../ressource/image_fond.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
