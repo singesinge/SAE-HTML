@@ -18,16 +18,17 @@
 
 <body>
 	<a id='ancre6'></a>
+	<!--menu navigation-->
 	<nav>
-		<!--les ancrages et les liens pour descendre ou retourner a la page d'acceuil dans l'onglet navigation-->
-        <a href="../index.html">Acceuil</a>
-        <a href="./index.html#ancre2">Moi</a>
-        <a href="./index.html#ancre3">Le métier</a>
-        <a href="./index.html#ancre4">Statistiques</a>
-		<a href="./index.html#ancre5">Les études</a>
-        <a href="./index.html#ancre5">Les compétences requises </a>
-		<a href="./index.html#ancre6">Retour en haut</a>
+        <a class="txtcenter" href="../index.html">Acceuil</a>
+        <a class="txtcenter" href="./index.html#ancre2">Moi</a>
+        <a class="txtcenter" href="./index.html#ancre3">Le métier</a>
+        <a class="txtcenter" href="./index.html#ancre4">Statistiques</a>
+		<a class="txtcenter" href="./index.html#ancre5">Les études</a>
+        <a class="txtcenter" href="./index.html#ancre5">Les compétences<br> requises </a>
+		<a class="txtcenter" href="./index.html#ancre6">Retour en haut</a>
     </nav>
+
 	<!--boutton du menu defilant-->
     <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
         <span class="line l1"></span>
@@ -35,81 +36,68 @@
         <span class="line l3"></span>
     </button>
 	<a class="button"></a>
+
+	<!--image de fond + ecriture auto-->
 	<div class="acceuil">
 		<h1>|</h1>
 	</div>
+
 	<!--lien de l'ancrage-->
 	<a id='ancre2'></a>
-		<!--image du fond-->
-		<img class="devImg"></img>
-		<div class='reveal reveal-1' >	
-			<!--zone de texte "console"-->
-			<section class='console1'>
+
+	<!--image du fond-->
+	<div class="devImg"></div>
+
+	<!--animation d'apparition-->
+	<div class='reveal reveal-1' >	
+		<!--zone de texte "console"-->
+		<div class='console1'>
+			<br>
+			<!--pour faire apparaitre le texte en blanc-->
+			<p class="blanc" >
+				<!--pour les couleurs au debut de chauqe partie-->
+				<em class="crog">&lt;</em><em class="pbleu">p</em>
+				<em class="styleb">style=</em><em class="txto">'color:white;margin-left:10px;'</em><em class="crod">&gt;</em><br>
+				Mon profil:<br><br>
+				Pour commencer je m'appelle Thomas  Bout, j'ai 17 ans et 18 ans 2 jours apres le rendu de ce projet !<br>
 				<br>
-				<p id = "blanc"  >
-					<em class="crog">&lt;</em><em class="pbleu">p</em>
-					<em class="styleb">style=</em><em class="txto">'color:white;margin-left:10px;'</em><em class="crod">&gt;</em><br>
-				</p>
-
-				<p class="blanc" >
-					Mon profil:<br><br>
-					Pour commencer je m'appelle Thomas  Bout, j'ai 17 ans et 18 ans 2 jours apres le rendu de ce projet !<br>
-					<br>
-					Au lycée Paul Langevin à La Seyne j'ai fait un parcours technologique en STI2D spécialité SIN.<br><br>
-					Depuis un bon moment je m'intéresse a l'informatique, au codage et aux ordinateurs c'est en partie pour ça que je suis passé par la STI2D et que je suis actuellement en BUT Informatique ici à Aix-En-Provence <br><br>
-					Dans les prochaines années j'aimerais réussir à passer les 3 ans de BUT puis faire un master et me spécialiser dans le développement web<br>
-				</p>
-
-				<p class="blanc" >
-					<em class="crog">&lt;/</em>
-					<em class="pbleu" >p</em>
-					<span class="crod" >&gt;</em><br>
-					<br>
-				</p>
-			</section>
+				Au lycée Paul Langevin à La Seyne j'ai fait un parcours technologique en STI2D spécialité SIN.<br><br>
+				Depuis un bon moment je m'intéresse a l'informatique, au codage et aux ordinateurs c'est en partie pour ça que je suis passé par la STI2D et que je suis actuellement en BUT Informatique ici à Aix-En-Provence <br>
+				Dans les prochaines années j'aimerais réussir à passer les 3 ans de BUT puis faire un master et me spécialiser dans le développement web
+				<br><em class="crog">&lt;/</em><em class="pbleu" >p</em><em class="crod" >&gt;</em><br><br>
+			</p>
 		</div>
+	</div>
 
 	<!--image de fond numero 2-->
 	<div class="devImg2"></div>
-	<!--encore un lien d'ancrage-->
-	<a id='ancre3'></a>
-	<!--pour faire apparaitre quand on scroll (petite animation)-->
-	<div class='reveal reveal-1' >	
-	
-		<!--zone de texte 'console' n°2-->
-		<section class='console2'>
-			<p id = "blanc"  >
-				<em class ="crog">&lt;</em>
-				<em class="pbleu">p</em>
-				<em class="styleb">style=</em>
-				<em class="txto">'color:white;margin-left:10px;'</em>
-				<em class="crod">&gt;</em><br>
-				<em class="">
-			</p>
 
+	<a id='ancre3'></a>
+
+	<!--animation-->
+	<div class='reveal reveal-1' >	
+		<!--zone de texte 'console' n°2-->
+		<div class='console2'>
 			<p class="blanc" >
+				<em class="crog">&lt;</em><em class="pbleu">p</em>
+				<em class="styleb">style=</em><em class="txto">'color:white;margin-left:10px;'</em><em class="crod">&gt;</em><br>
 				Le métier de Dév Full-Stack:<br><br> 
 				Un développeur full stack est un informaticien capable de participer de A à Z à la création et au développement d’un produit informatique.<br><br>
 				Le développeur full stack intervient sur toutes les phases d’un projet de développement web, de la phase d’architecture logicielle aux étapes de tests unitaires, en passant par la phase d’implémentation de la solution.<br><br>
-				Ses responsabilités sont de concevoir l’architecture d’un projet, d’intervenir sur le développement du front-end et du back-end d’un site, d’une application, ou d’un service web, et d’en assurer la maintenance.
-				
+				Ses responsabilités sont de concevoir l’architecture d’un projet, d’intervenir sur le développement du front-end et du back-end d’un site, d’une application, ou d’un service web, et d’en assurer la maintenance.<br>
+				<em class="crog">&lt;/</em><em class="pbleu" >p</em><em class="crod" >&gt;</em><br><br>
 			</p>
-
-			<p class="blanc" >
-				<em class="crog">&lt;/</em>
-				<em class="pbleu">p</em>
-				<em class="crod" >&gt;</em><br>
-				<br>
-			</p>
-		</section>
+		</div>
 	</div>
+
+
 	<!--encore une annimation-->
 	<div class='Home1 reveal reveal-1'>
 		<br>
 	<!--encore un ancrage-->
 		<a id='ancre4'></a>
 	<!--Le bandeau blanc avec des statistiques et des icons dedans-->
-	<h2 > Quelques statistiques sur le métier de dév full-stack.<br></h2>
+	<h2> Quelques statistiques sur le métier de dév full-stack.<br></h2>
 	<table class='tableaucenter'>
 		<thead>
 			<tr class="reveal reveal-1">
@@ -149,7 +137,7 @@
 	<a id='ancre5'></a>
 	<div class='reveal reveal-1' >	
 		<!--zone de texte "console"-->
-		<section class='console3'>
+		<div class='console3'>
 			<br>
 			<p class="blanc" >
 				Les études:<br>
@@ -163,24 +151,17 @@
 				Evidemment la plupart du temps plus les études sont longues plus le salaire sera élevé.<br>
 			</p>
 			<br>
-			</p>
-		</section>
+		</div>
 	</div>
 	</div>
-<div class='reveal reveal-1' >	
-	
-	<!--zone de texte 'console' n°5-->
-	<section class='console4'>
-		<p id = "blanc"  >
-			<span id ="crog">&lt;</span>
-			<span class="pbleu">p</span>
-			<span class="styleb">style=</span>
-			<span class="txto">'color:white;margin-left:10px;'</span>
-			<span class="crod">&gt;</span><br>
-			<span class="">
-		</p>
 
+
+<div class='reveal reveal-1' >	
+	<!--zone de texte 'console' n°5-->
+	<div class='console4'>
 		<p class="blanc" >
+			<em class="crog">&lt;</em><em class="pbleu">p</em>
+			<em class="styleb">style=</em><em class="txto">'color:white;margin-left:10px;'</em><em class="crod">&gt;</em><br>
 			Pour devenir dév full stack in faut etre polyvalent et avoir de nombreuses qualités comme:<br><br>
 
 			-une maîtrise des principaux langages informatiques et des dernières technologies comme HTML, CSS, PHP, JavaScript, SQL, jQuery, Java ou Node.JS<br>
@@ -189,32 +170,26 @@
 			-des connaissances des outils de graphisme comme InDesign, Illustrator ou Photoshop<br>
 			-un bon niveau d’anglais<br>
 			-capacités d'adaptation<br><br>
-			Et bien d'autres encore…
+			Et bien d'autres encore…<br>
+			<em class="crog">&lt;/</em><em class="pbleu" >p</em><em class="crod" >&gt;</em>
+			<br>
+			<br>
 		</p>
-		<p class="blanc" >
-			<p class="blanc" >
-				<span class="crog">&lt;/</span>
-				<span class="pbleu" >p</span>
-				<span class="crod" >&gt;</span><br>
-				<br>
-		</p>
-	</section>
+	</div>
 </div>
 <div class='reveal reveal-1' >	
 	
 	<!--zone de texte 'console' n°4-->
-	<section class='console5'>
-		<br>
-		<br>
+	<div class='console5'>
 		<p class="blanc" >
-			Merci d'avoir pris le temps de lire cette partie du site, vous pouvez retourner a la paged'acceuil 
-		</p>
-			<p class="blanc" ><a href="../index.html">ICI</a>.
-			</p>
+
+			<br>
+			Merci d'avoir pris le temps de lire cette partie du site, vous pouvez retourner a la paged'acceuil<br>
+			<a href="../index.html">ICI</a>.
 			<br>
 			<br>
 		</p>
-	</section>
+	</div>
 </div>
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
